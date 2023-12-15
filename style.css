@@ -1,0 +1,46 @@
+#Nav{
+    text-align: center;
+}
+button{
+    border: 1px solid black;
+    margin: 1%;
+    width: 22%;
+    height: 40px;
+    font-family: 'Fredoka One', sans-serif;
+}
+button:hover{
+    animation: focus 1s ;
+    transition: 0.5s all ease-in-out;
+}
+#AuthButton{
+    width: 100%;
+    border: 1px solid rgba(45, 45, 45, 0.384);
+    font-family: 'Fredoka One', sans-serif;
+}
+#Auth{
+    padding: 1%;
+    height: 100%;
+    width: 30%;
+    border: 1px solid rgba(45, 45, 45, 0.384);
+    background-color: rgb(0, 255, 0);
+    font-family: 'Fredoka One', sans-serif;
+}
+label{
+    font-family: 'Fredoka One', sans-serif;
+}
+h3{
+    font-family: 'Fredoka One', sans-serif;
+}
+input{
+    width:50%;
+    float: right;
+    font-family: 'Fredoka One', sans-serif;
+}
+@keyframes focus{
+    0%{
+        transform: scale(1)
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
